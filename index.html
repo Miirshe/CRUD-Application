@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5b88d0cca.js" crossorigin="anonymous"></script>
+    <title>Registration Form </title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Registration Form </h1>
+        </header>
+        <div class="box">
+            <form action="" id="form">
+                <div class="boxs">
+                    <label for="">Name</label><br>
+                    <input type="text" name="" id="names"><br><br>
+                    <label for="">age</label><br>
+                    <input type="number" name="" id="age"><br><br>
+                    <label for="">Phone</label><br>
+                    <input type="number" name="" id="numbers"><br><br>
+                </div>
+                <div class="boxs">     
+                    <label for="">Email</label><br>
+                    <input type="email" name="" id="Email"><br><br>
+                    <label for="">Address</label><br>
+                    <input type="text" name="" id="address"><br><br> 
+                    <label for="">Faculty_Name</label><br>
+                    <input type="text" name="" id="faculty"><br><br> 
+                    <button type="submit" id="btn">Insert</button>
+                </div>
+            </form>
+            <table id="info">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Faculty_Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="rrr">
+                        <td data="Name : ">Abdikafi Isse</td>
+                        <td data="Age : ">23</td>
+                        <td data="Phone : ">618302314</td>
+                        <td data="Email : ">Miirshe@gmail.com</td>
+                        <td data="Address : ">banadir-hamar jajab</td>
+                        <td data="Faculty : ">Computer Application</td>
+                        <td data="Add : "><button onclick="delete_info(this)" type="reset" id="delete"><i class="fa-solid fa-trash"></i></button></td>
+                        <td data="Remove : "><button type="reset" id="edit"><i class="fa-solid fa-pen-to-square"></i></button></td>
+                    </tr>
+
+                </tbody>
+                
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
